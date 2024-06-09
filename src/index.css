@@ -1,9 +1,10 @@
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
-  color: #fc7979;
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+
+  background: #000000;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 0%, rgba(158, 110, 230, 0) 100%), #000000;
 }
 
 /* Header Styles */
@@ -12,14 +13,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px 64px;
- width: 100%;
+  width: auto;
   max-width: 1440px;
   margin: auto;
   margin-bottom: 0px;
   border-bottom: 1px solid gray;
   /* background: #00000099; */
   background-color: rgba(0, 0, 0, 0.6);
-  
+  z-index: 1;
 
 
 }
@@ -77,7 +78,7 @@ border-radius: 4px;
 
 .buttons button:first-child {
   
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
   color: white;
   border: none;
 
@@ -87,19 +88,25 @@ border-radius: 4px;
   border: none;
   color: #fff;
   background: linear-gradient(90deg, #9E6EE5 0%, #FA75F8 100%);
-
+ z-index: 1;
 }
 
 /* Hero Section Styles */
 .hero {
-  
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
   height: auto;
   width: 100%;
   max-width: 1568px;
   margin: auto;
   margin-top: 0px;
-  color: #fff;
+  display: flex;
+  gap: 45.27px;
+}
+.hero-div1{
+  width: 660px;
+  background-color: transparent;
+  padding-bottom: 56px;
+  margin-top: 127px;
+  margin-left: 175px;
 }
 .hero-div1>button:nth-child(1){
  padding: 6.75px 12px;
@@ -109,6 +116,7 @@ border-radius: 4px;
   border: none;
   border-radius: 10px;
   background: #141414;
+  color:white;
   /* background: radial-gradient(42% 50% at 50% 50%, rgba(255, 255, 255, 0.6) 0%, rgba(171, 171, 171, 0) 100%); */
   border-bottom: 0.5px solid white;
 }
@@ -127,20 +135,100 @@ text-align: left;
   line-height: 59px;
   text-align: left;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-clip: text;
+  color: transparent;
+  margin-top: 64px;
+}
+.hero p{
+  font-family: Outfit;
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+color: #FFFFFFCC;
+margin-top: 24px;
 
-  
 }
 
 .hero button:nth-of-type(2) {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #6a0dad;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  background: linear-gradient(90deg, #9E6EE5 0%, #FA75F8 100%);
   color: #fff;
+  padding: 22px 32px 17.5px 32px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 48px;
 }
+.hero-div2{
+  display: flex;
+  
+  z-index: -1000;
+}
+.hero-div2>div{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.hero-div2 img{
+ width: 182.31px;
+ height: 190px;
+ border-radius: 21.61px;
+ opacity: 0px;
+ /* box-shadow: 0px 18.01px 36.02px 0px #0E0C4726; */
 
+}
+.hero-div2>div:nth-of-type(2){
+ position: relative;
+ top: -40px;
+ 
+}
+/* Herso section 2 */
+.hero2{
+ margin: auto;
+ margin-top: 196.67px;
+ width: auto;
+ max-width: 1568px;
+ height:auto;
+ padding: 0 177px;
+ }
+.hero2-first{
+  background-image: url("./assets/images/personalities/Background.png");
+  background-size: cover;
+  margin: auto;
+  height: 556px;
+  width:1086;
+  }
+.hero2-first>div{
+  /* margin: auto;
+  width: 787px;
+  height: 128px; */
+  width: 100%;
+  height: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero2-first>div>h2{
+ font-family: Outfit;
+ font-size: 48px;
+ font-weight: 500;
+ line-height: 64px;
+ text-align: center;
+ color: #fff;
+
+ width: 787px;
+ height: 128px;
+}
+.hero2-first>div>h2>span{
+  background:linear-gradient(90deg, #FACC69 0%, #FF91A5 100%);
+  background-clip: text;
+  color: transparent;
+}
 /* Avatar Grid Styles */
 .avatarGrid {
   display: grid;
@@ -157,15 +245,50 @@ text-align: left;
 
 /* How It Works Styles */
 .howItWorks {
-  padding: 50px 20px;
-  background-color: #1a1a1a;
-}
+display: flex;
+gap: 32px;
 
-.howItWorks h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
+width: 100%;
+height: auto;
+max-width: 1568px;
+margin: auto;
+margin-top: 101.8px;
 }
+.howItWorks img{
+  display: block;
+  width: 716px;
+  height: 508px;
+  border-radius: 16px;
+}
+.howItWorks>div{
+ display: flex;
+ flex-direction: column;
+ gap: 32px;
+}
+.howItWorks div>h2{
+  font-family: Outfit;
+font-size: 64px;
+font-weight: 600;
+line-height: 64px;
+color: #FFFFFF;
+margin-bottom: 0px;
+}
+.howItWorks>div>div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.howItWorks div>span{
+  font-family: Outfit;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+background-clip: text;
+color: transparent;
+margin-top: 0px;
 
+}
 /* Tokenomics Styles */
 .tokenomics {
   padding: 50px 20px;
