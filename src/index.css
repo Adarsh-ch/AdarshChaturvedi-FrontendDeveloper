@@ -229,19 +229,7 @@ margin-top: 24px;
   background-clip: text;
   color: transparent;
 }
-/* Avatar Grid Styles */
-.avatarGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  background-color: #1a1a1a;
-}
 
-.avatarGrid img {
-  width: 100%;
-  border-radius: 10px;
-}
 
 /* How It Works Styles */
 .howItWorks {
@@ -529,8 +517,11 @@ width: 254px;
  max-width: 1586px;
  margin: auto;
  margin-top: 152px;
- 
 
+ padding-left: 170px;
+ display: flex;
+ flex-direction: column;
+ gap: 104px;
 }
 .roadmap>h1{
   font-family: Outfit;
@@ -547,6 +538,81 @@ width: 254px;
 .roadmap h2 {
   font-size: 28px;
   margin-bottom: 20px;
+}
+.roadmap-inner{
+ display: flex;
+ color: white;
+ justify-content: space-between;
+ align-items: center;
+}
+.roadmap-inner h2{
+  font-family: Outfit;
+font-size: 48px;
+font-weight: 500;
+line-height: 64px;
+text-align: left;
+background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);
+background-clip: text;
+color: transparent;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#Phase1{
+  background: linear-gradient(90deg, #FACC69 0%, #FA75F8 100%);
+  margin-bottom: 0px;
+background-clip: text;
+color: transparent;
+}
+.roadmap-inner ul>li{
+  font-family: Outfit;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #FFFFFFCC;
+
+
+}
+.roadmap-inner>div{
+ 
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+  padding: 0px;
+}
+/* Get started section */
+.getstarted{
+  margin: auto;
+  margin-top: 152px;
+  width: auto;
+  max-width: 1586px;
+  background-image: url("./assets/images/personalities/started.png");
+  height: 332px;
+  color: white;
+  padding: 0px 66px;
+
+}
+.getstarted button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #9E6EE5 0%, #FA75F8 100%);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 2px;
+ width: 1320px;
+  padding: 31px 64px 33px 64px;
+  gap: 0px;
+  border-radius: 6px;
+  font-size: 48px;
+  position: relative;
+  top: 194px;
+}
+.getstarted button>span{
+  font-size: 48px;
 }
 
 /* Footer Styles */

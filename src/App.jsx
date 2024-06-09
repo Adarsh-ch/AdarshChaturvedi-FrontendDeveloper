@@ -9,6 +9,7 @@ import HeroSection2 from './components/HeroSection2';
 import Scroll from './components/Scroll';
 import Outfit from './components/Outfit';
 import Roadmap from './components/Roadmap';
+import GetStarted from './components/GetStarted';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Outfit/>
       <Tokenomics />
       <Roadmap/>
+      <GetStarted/>
       <Footer />
     </div>
   );
