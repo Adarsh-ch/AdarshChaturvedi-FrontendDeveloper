@@ -204,6 +204,12 @@ margin-top: 24px;
  top: -40px;
  
 }
+.hero-div2>div:nth-of-type(1){
+
+}
+.hero-div2>div:nth-of-type(3){
+
+}
 /* Herso section 2 */
 .hero2{
  margin: auto;
@@ -729,6 +735,7 @@ text-align: left;
 }
 .footer-2>h3{
   font-family: Outfit;
+  
   font-size: 20px;
   font-weight: 500;
   line-height: 25.2px;
