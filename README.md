@@ -22,3 +22,5 @@ clone the repo on your IDE using command
  npm run dev
 
  ```
+**Note:**
+create vite react app and run necessary command for that
