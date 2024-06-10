@@ -44,6 +44,7 @@ nav ul{
   display: flex;
   gap: 32px;
   list-style: none;
+  
 }
 .logo {
   font-size: 24px;
@@ -62,8 +63,24 @@ nav ul{
 .buttons{
   display: flex;
   gap: 12px;
+  align-items: center;
+  
 }
+.buttons>span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 45px;
+height: 45px;
+border-radius: 50%;
 
+border: 1.5px 0px 0px 0px;
+border: 1.5px solid #1A1A28;
+background-color: #14141F;
+display: none;
+
+}
 .buttons button {
  
   padding:12.7px 24px;
@@ -76,19 +93,20 @@ border-radius: 4px;
 
 }
 
-.buttons button:first-child {
+.buttons button:nth-of-type(1) {
   
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
   border: none;
-
+  cursor: pointer;
 }
 
-.buttons button:last-child {
+.buttons button:nth-of-type(2) {
   border: none;
   color: #fff;
   background: linear-gradient(90deg, #9E6EE5 0%, #FA75F8 100%);
  z-index: 1;
+ cursor: pointer;
 }
 
 /* Hero Section Styles */
@@ -235,7 +253,7 @@ margin-top: 24px;
 .howItWorks {
 display: flex;
 gap: 32px;
-
+flex-wrap: wrap;
 width: 100%;
 height: auto;
 max-width: 1568px;
@@ -544,6 +562,7 @@ width: 254px;
  color: white;
  justify-content: space-between;
  align-items: center;
+flex-wrap: wrap;
 }
 .roadmap-inner h2{
   font-family: Outfit;
@@ -610,6 +629,7 @@ color: #FFFFFFCC;
   font-size: 48px;
   position: relative;
   top: 194px;
+  cursor: pointer;
 }
 .getstarted button>span{
   font-size: 48px;
@@ -630,7 +650,7 @@ color: #FFFFFFCC;
   display: flex;
  justify-content: center;
  align-items: center;
- 
+flex-wrap: wrap;
 }
 .footer>div:nth-of-type(1)>div{
   width: 835px;
@@ -720,4 +740,21 @@ text-align: left;
 .footer-2>div{
   display: flex;
   gap: 48px;
+}
+@media (max-width: 650px) {
+  nav ul{
+    display: none;
+  }
+  .buttons button:nth-of-type(1){
+    display: none;
+  }
+  .buttons button:nth-of-type(2){
+    display: none;
+  }
+  .buttons>span{
+    display: block;
+  }
+  .hero-div2{
+    display: none;
+  }
 }

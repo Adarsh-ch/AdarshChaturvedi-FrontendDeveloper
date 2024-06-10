@@ -17,6 +17,9 @@ const Header = () => {
       <div className="buttons">
         <button>Whitepaper</button>
         <button>Get Started</button>
+         <span><span class="material-symbols-outlined">
+menu
+</span></span>
       </div>
     </header>
   );
