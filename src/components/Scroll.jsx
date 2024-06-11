@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 const Scroll = () => {
@@ -44,4 +43,3 @@ const Scroll = () => {
 };
 
 export default Scroll;
-
