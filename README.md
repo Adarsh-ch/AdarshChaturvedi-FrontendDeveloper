@@ -24,10 +24,11 @@ npm run dev
 
 ## Deployed Link
 
--[Live Demo Zepto](https://aigen-thematrixlabs-1.netlify.app/)
+-[Live Demo Zepto](https://aigen-thematrixlabs2.netlify.app/)
 
 ## Video Walkthrough of the project
--[Presentation Link](https://drive.google.com/file/d/1IhfQTkwL4PIKIB0Dy74uyZqbvQvEJE5v/view?usp=sharing)
+
+-[Presentation Link](https://drive.google.com/file/d/1liW8NukJuYNBncjifrY60Eq_XsuzgmXu/view?usp=sharing)
 
 **Note:**
 create vite react app and run necessary command for that
