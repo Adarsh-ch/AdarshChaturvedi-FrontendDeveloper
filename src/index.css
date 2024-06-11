@@ -1,9 +1,9 @@
 
 body {
   margin: 0px;
-  padding: 0;
+  padding: 0px;
 
-  background: #000000;
+ 
   background: radial-gradient(50% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 0%, rgba(158, 110, 230, 0) 100%), #000000;
 }
 
@@ -18,19 +18,16 @@ body {
   margin: auto;
   margin-bottom: 0px;
   border-bottom: 1px solid gray;
-  /* background: #00000099; */
   background-color: rgba(0, 0, 0, 0.6);
   /* position: fixed; */
-
-
-
+  z-index: 1000;
 }
 .header-div{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 48px;
- 
+
 }
 .nav a{
   font-family: Outfit;
@@ -119,6 +116,7 @@ border-radius: 4px;
   margin-top: 0px;
   display: flex;
   gap: 45.27px;
+  
 }
 .hero-div1{
   width: 660px;
@@ -185,7 +183,7 @@ margin-top: 24px;
 .hero-div2{
   display: flex;
   
-  z-index: -1000;
+  z-index: -1;
 }
 .hero-div2>div{
   display: flex;
@@ -207,44 +205,50 @@ margin-top: 24px;
 }
 
 /* Herso section 2 */
-.hero2{
- margin: auto;
- margin-top: 196.67px;
- width: auto;
- max-width: 1568px;
- height:auto;
- padding: 0 177px;
- }
 
-.hero2-first{
-  background-image: url("./assets/images/personalities/Background.png");
+.hero2 {
+  margin: auto;
+  margin-top: 196.67px;
+  width: auto;
+  max-width: 1568px;
+  height: auto;
+  padding: 0 177px;
+  
+}
+
+.hero2-first {
+  background-image: url('./assets/images/personalities/Background.png');
   background-size: cover;
   margin: auto;
   height: 556px;
-  width:1086;
-  }
-.hero2-first>div{
- 
+  width: 1086px;
+}
+
+.hero2-first > div {
   width: 100%;
   height: 100%;
- 
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
-.hero2-first>div>h2{
- font-family: Outfit;
- font-size: 48px;
- font-weight: 500;
- line-height: 64px;
- text-align: center;
- color: #fff;
 
- width: 787px;
- height: 128px;
+.hero2-first > div > h2 {
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  width: 787px;
+  height: 128px;
+  position: relative;
+  transition: transform 0.1s ease-out;
 }
-.hero2-first>div>h2>span{
-  background:linear-gradient(90deg, #FACC69 0%, #FF91A5 100%);
+
+.hero2-first > div > h2 > span {
+  background: linear-gradient(90deg, #FACC69 0%, #FF91A5 100%);
   background-clip: text;
   color: transparent;
 }
@@ -252,54 +256,9 @@ margin-top: 24px;
 
 
 
-/* How It Works Styles */
-/* .howItWorks {
-display: flex;
-gap: 32px;
-flex-wrap: wrap;
-width: 100%;
-height: auto;
-max-width: 1568px;
-margin: auto;
-margin-top: 101.8px;
-}
-.howItWorks img{
-  display: block;
-  width: 686px;
-  height: 508px;
-  border-radius: 16px;
-  position: relative;
-  left: -10.8px;
-}
-.howItWorks>div{
- display: flex;
- flex-direction: column;
- gap: 32px;
-}
-.howItWorks div>h2{
-  font-family: Outfit;
-font-size: 64px;
-font-weight: 600;
-line-height: 64px;
-color: #FFFFFF;
-margin-bottom: 0px;
-}
-.howItWorks>div>div{
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.howItWorks div>span{
-  font-family: Outfit;
-font-size: 48px;
-font-weight: 400;
-line-height: 64px;
-background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
-background-clip: text;
-color: transparent;
-margin-top: 0px;
 
-} */
+/* How It Works Styles */
+
 .howItWorks {
   display: flex;
   gap: 32px;
@@ -764,7 +723,7 @@ width: 254px;
   display: flex;
  justify-content: center;
  align-items: center;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 }
 .footer>div:nth-of-type(1)>div{
   width: 835px;

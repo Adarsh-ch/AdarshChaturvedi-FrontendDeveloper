@@ -1,35 +1,26 @@
-// import React from 'react'
-
-// const HeroSection2 = () => {
-//   return (
-   
-//    <section className='hero2'>
-//      <div className='hero2-first'>
-//         <div>
-//       <h2><span>Create, customize, and publish</span> your digital persona to life effortlessly.</h2>
-//       </div>
-//      </div>
-//    </section>
-//   )
-// }
-
-// export default HeroSection2
 
 import React, { useEffect, useRef } from 'react';
 
 
 const HeroSection2 = () => {
   const textRef = useRef(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
       const text = textRef.current;
+      const section = sectionRef.current;
       const scrollPosition = window.scrollY;
+      const sectionTop = section.getBoundingClientRect().top + window.scrollY;
 
-      if (scrollPosition > 100) {
-        text.classList.add('text-animate-in');
+     
+      const speedFactor = 1.5;
+      
+      if (scrollPosition > sectionTop) {
+        const offset = (scrollPosition - sectionTop) * speedFactor;
+        text.style.transform = `translateY(-${offset}px)`;
       } else {
-        text.classList.remove('text-animate-in');
+        text.style.transform = 'translateY(0)';
       }
     };
 
@@ -40,10 +31,12 @@ const HeroSection2 = () => {
   }, []);
 
   return (
-    <section className="hero2">
+    <section className="hero2" ref={sectionRef}>
       <div className="hero2-first">
-        <div ref={textRef}>
-          <h2><span>Create, customize, and publish</span> your digital persona to life effortlessly.</h2>
+        <div>
+          <h2 ref={textRef}>
+            <span>Create, customize, and publish</span> your digital persona to life effortlessly.
+          </h2>
         </div>
       </div>
     </section>
@@ -51,3 +44,4 @@ const HeroSection2 = () => {
 };
 
 export default HeroSection2;
+
