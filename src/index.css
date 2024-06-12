@@ -21,7 +21,7 @@ body {
   border-bottom: 1px solid gray;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1000;
-  
+
 }
 
 .header-div {
@@ -133,6 +133,7 @@ nav ul {
   display: flex;
   gap: 45.27px;
   flex-direction: row;
+  
 }
 
 .hero-div1 {
@@ -271,6 +272,7 @@ nav ul {
   max-width: 1568px;
   height: auto;
   padding: 0 177px;
+
 }
 
 .hero2-first {
@@ -343,6 +345,7 @@ nav ul {
   max-width: 1568px;
   margin: auto;
   margin-top: 101.8px;
+ 
 }
 
 .image-container {
@@ -465,7 +468,7 @@ nav ul {
     margin: auto;
     margin-top: 171px;
     overflow: hidden; 
-   
+  
   }
   
   .scroll > div {
@@ -518,6 +521,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  
 }
 
 .outfit > div {
@@ -831,6 +835,7 @@ line-height: 7.91px;
   display: flex;
   flex-direction: column;
   gap: 104px;
+
 }
 
 .roadmap > h1 {
@@ -969,7 +974,7 @@ line-height: 7.91px;
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
 }
 
 .getstarted div {
@@ -1048,7 +1053,7 @@ line-height: 7.91px;
   margin-top: 250px;
   padding: 124.5px 64px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
-  
+
 }
 .footer>div:nth-of-type(1){
   display: flex;
