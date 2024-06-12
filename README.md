@@ -22,28 +22,28 @@ Frontend
 ## Screenshots
 
 **Desktop view**
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/1.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/2.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/3.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/4.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/5.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/6.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/7.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/8.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/9.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/10.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/11.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/12.png" alt="">
+<img src="src/Page_images/1.png" alt="Desktop View 1">
+<img src="src/Page_images/2.png" alt="Desktop View 2">
+<img src="src/Page_images/3.png" alt="Desktop View 3">
+<img src="src/Page_images/4.png" alt="Desktop View 4">
+<img src="src/Page_images/5.png" alt="Desktop View 5">
+<img src="src/Page_images/6.png" alt="Desktop View 6">
+<img src="src/Page_images/7.png" alt="Desktop View 7">
+<img src="src/Page_images/8.png" alt="Desktop View 8">
+<img src="src/Page_images/9.png" alt="Desktop View 9">
+<img src="src/Page_images/10.png" alt="Desktop View 10">
+<img src="src/Page_images/11.png" alt="Desktop View 11">
+<img src="src/Page_images/12.png" alt="Desktop View 12">
 
 **Mobile_view**
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-1.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-2.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-3.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-4.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-5.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-6.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-7.png" alt="">
-<img src="/AdarshChaturvedi-FrontendDeveloper/src/Page_images/M-8.png" alt="">
+<img src="src/Page_images/M-1.png" alt="Mobile View 1">
+<img src="src/Page_images/M-2.png" alt="Mobile View 2">
+<img src="src/Page_images/M-3.png" alt="Mobile View 3">
+<img src="src/Page_images/M-4.png" alt="Mobile View 4">
+<img src="src/Page_images/M-5.png" alt="Mobile View 5">
+<img src="src/Page_images/M-6.png" alt="Mobile View 6">
+<img src="src/Page_images/M-7.png" alt="Mobile View 7">
+<img src="src/Page_images/M-8.png" alt="Mobile View 8">
 
 ## How_to_run
 
