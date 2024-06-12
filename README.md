@@ -1,5 +1,8 @@
 <h1 align="center"> AI.GEN</h1>
 
+## Intro
+-A Figma layout of AI.GEN with added responsiveness to enhance user ecperience.
+
 ## Project Type
 
 Frontend
